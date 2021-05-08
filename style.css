@@ -1,0 +1,211 @@
+
+body {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 1.5vw;
+    text-align: left;
+    height: auto;
+    margin: auto;
+
+}
+
+h1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 2vw 6.25vw;
+    padding: 0.5vw;
+    background: black;
+    width: 85%;
+    opacity: 80%;
+    text-align: center;
+    font-size: 2.5vw;
+
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 2.5vw;
+}
+
+h2.title{
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 2vw;
+  margin: auto;
+  width: 85%;
+  text-align: left;
+  font-size: 2.8vw;
+}
+
+table, th, td {
+    border: 0.2vw solid black;
+    border-collapse: collapse;
+    padding: 1vw;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+th {
+    background-color: snow;
+    font-weight: normal;
+}
+
+th.head {
+    background-color: orchid;
+    color:white;
+    font-weight: bold;
+}
+
+figure{
+  margin-left: auto;
+  margin-right: auto ;
+  width:75vw
+  }
+
+figure figcaption {
+    padding: 1vw;
+    text-align: center;
+}
+
+img{
+  margin-left: auto;
+  margin-right: auto;
+  width: 50vw;
+  height: auto ;
+  display: block;
+}
+
+img.align{
+  width:36vw;
+  margin: auto;
+  height: auto ;
+  float: left;
+
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: #333;
+  margin: auto;
+  border-left: 0.0625vw solid #333;
+  border-right: 0.0625vw solid #333;
+
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 0.8vw 2.4vw;
+  text-decoration: none;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .body {
+  padding-top: 60px;
+}
+
+#navbar a:hover {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  background: plum;
+  text-align: center;
+  padding: 0.8vw 2.4vw;
+  text-decoration: none;
+}
+
+#navbar a.active {
+  color: #f2f2f2;
+  background: orchid;
+}
+
+.center {
+    display: inline-block;
+    margin-left:auto;
+    margin-right:auto;
+
+}
+
+.page_width {
+    width: 70%;
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+
+}
+
+.header{
+    border: 0.0625vw solid;
+    font-size: 1.875vw;
+    background-position: center;
+    margin: auto;
+    
+}
+
+caption{
+    caption-side: bottom;
+    padding: 1vw;
+}
+
+code.pretty{
+    font-size: 1.0vw;
+}
+
+footer {
+    text-align: center;
+    opacity: 90%;
+    background-color: #333;
+    color: whitesmoke;
+    border: 0.0625vw solid black;
+
+}
+
+p.def{
+   padding: 1vw;
+    background-color: aliceblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    font-size: 1.5vw;
+    border: 0.1vw solid black;
+    text-align: justify;
+    height: auto;
+    margin: auto;
+}
+
+p.proof{
+    padding: 1vw;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    font-size: 1.5vw;
+    text-align: left;
+    height: auto;
+    margin: auto;
+}
+
+th.merge{
+    border-collapse: collapse;
+
+}
+
+li{
+    padding: 1vw;
+    text-decoration: none;
+}
+
+
+a:link {
+    text-decoration: none;
+}
+
+
